@@ -1,0 +1,162 @@
+* { box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 0%;
+    
+}
+/*header part*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: #585353;
+    flex-direction: row;
+    padding: 0%;
+
+}
+ul {
+    display: flex;
+}
+li {
+    margin: 1rem;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #585353;
+    margin-left: 8px;
+}
+.logo {
+    width: 75%;
+    }
+nav img {
+    width: 250px;
+    height: 100%;
+}
+
+/*potfolio */
+.portfolio img{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+
+}
+.port-text{
+    margin-right: 10%; 
+    color: #00b39b;
+   text-align: center;
+}
+
+
+
+.port-text2{
+    display: flex;
+    margin-left: 0%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    color: #00b39b;
+
+}
+main div p {
+    width: 35%;
+    color: rgb(185, 185, 185);
+}
+h1 {
+    display: flex;
+    text-align: center;
+    color:#00b39b ; 
+    font-weight: lighter;
+    margin: auto;
+    width: 45%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: #3d83df;
+    color: white;
+    padding: 0.8%;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #064ba5;
+}
+
+.card-country{
+    border-radius: 5px;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.card-country:hover{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px gray;
+}
+.p2{
+    margin: auto;
+    margin-top: 2%;
+    color: rgb(185, 185, 185);
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.con1{
+    background-color: rgb(0, 216, 144);
+    border-radius: 10px;
+    margin-right: 2%;
+    align-items: center;
+    color: white;
+}
+.con2{
+    background: #3d83df;
+    border-radius: 10px;
+    margin-right: 2%;
+    color: white;
+}
+.con3{
+    background: #1b2734;
+    border-radius: 10px;
+    margin-right: 2%;
+    color: white;
+    
+}
+.CONS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 2%;
+   }
+   select{
+    margin-left: 13%;
+    line-height: 50px;
+    appearance: none;
+    text-decoration: underline;
+    border: none;
+    background: white;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   }
+
+
+
+
+
